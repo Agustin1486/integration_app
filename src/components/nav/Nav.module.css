@@ -1,0 +1,24 @@
+body{
+    color: rgb(69, 95, 30);
+}
+.container {
+    display: grid;
+    grid-template-columns: 15% 50% 0%;
+    background-color: rgb(78, 120, 210);
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
+.active{
+
+    -webkit-text-stroke: 1px rgb(131, 192, 19);
+    color: antiquewhite;
+    text-underline-offset: 5px;
+    text-decoration: yellowgreen;
+
+}
+.disable {
+    text-decoration: none;
+    color: ineherit;
+}

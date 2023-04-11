@@ -1,0 +1,33 @@
+.container{
+    
+    /* color: rgb(237, 19, 19); */
+    
+    
+}
+
+.prueba{
+    
+    color: red;
+    background-color: black;
+}
+
+
+.imagen{
+    width: 250px;
+    box-shadow: 0 0 30px rgb(244, 2, 27);
+    border-radius: 10%;
+
+}
+.containerInfo{
+    
+    display: table-row;
+    box-shadow: rgb(170, 244, 37);
+    justify-content: space-around;
+    color: rgb(218, 165, 32);
+    
+
+}
+
+
+
+

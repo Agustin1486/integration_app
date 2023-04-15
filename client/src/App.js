@@ -15,12 +15,13 @@ function App() {
   const [access, setAccess] = useState(false)
   const username = "agus@henry.com";
   const password = "henry123"
-
+  console.log(useState)
   useEffect(() => { 
     !access && navigate('/');
  },[access]);
 
   function login(userData){
+    
      if(userData.username === username && userData.password === password){
       setAccess(true)
       navigate("/home")
@@ -35,7 +36,7 @@ function App() {
     
   }; */
   const onSearch = (id) => {
-    fetch(`https://rickandmortyapi.com/api/character/${id}`)
+    fetch(`http://localhost:3001/rickandmorty/character/${id}`)
       .then((response) => response.json())
       .then((data) => {
         ( 
